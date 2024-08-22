@@ -1,4 +1,4 @@
-https://github.com/RootIpV6/Winbox-on-Ubuntu.gitsudo apt-get install wine -y
+sudo apt-get install wine -y
 #Used to load wine packages
 
 wget http://www.mikrotik.com/download/winbox.exe
