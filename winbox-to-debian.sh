@@ -1,14 +1,7 @@
-sudo yum install epel-release
+sudo dpkg --add-architecture i386
 
-sudo yum install wine -y
+sudo apt update
 
-wget https://mt.lv/winbox64
+sudo apt install wine
 
-wine ~/winbox64
-
-#set as winbox shortcut optional
-
-sudo mv ~/winbox64 /usr/local/bin/winbox
-
-wine /usr/local/bin/winbox
-
+ wine /path/to/winbox.exe
